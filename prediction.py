@@ -59,6 +59,7 @@ x= dataset[['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'radiu
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
+import joblib
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, r2_score, mean_squared_error
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
@@ -66,6 +67,11 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_
 model = LogisticRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
+   
+joblib.dump(
+    model,
+    r"C:\Users\HP\breast_cancer_prediction_project.py\breast_cancer_model.pkl"
+)   
 
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
@@ -87,6 +93,15 @@ plt.title('Confusion Matrix')
 plt.show()
 
 new_person = [[20.77, 130, 1200, 20, 25]]
+
+prediction = model.predict(new_person)
+
+if prediction[0] == 1:
+    print("Prediction: Malignant")
+else:
+    print("Prediction: Benign")
+    
+new_person = [[25.63, 30.26, 32.22, 17.23, 10.24]]
 
 prediction = model.predict(new_person)
 
