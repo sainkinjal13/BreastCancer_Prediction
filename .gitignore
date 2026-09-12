@@ -1,0 +1,4 @@
+.venv/
+oracleJdk-26/
+__pycache__/
+*.pyc
