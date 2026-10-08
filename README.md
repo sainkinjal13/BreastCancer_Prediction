@@ -135,12 +135,24 @@ Malignant
 BreastCancer_Prediction/
 │
 ├── .vscode/
+│   └── settings.json
+│
+├── images/
+│   ├── README.md
+│   ├── benign prediction.png
+│   ├── classification matrices.png
+│   ├── confusion matrix.png
+│   ├── frontend interface.png
+│   ├── malignant prediction.png
+│   ├── visualization between perimeter...
+│   └── visualization between radius...
+│
 ├── .gitignore
+├── README.md
 ├── app.py
-├── archive (7).zip
 ├── breast_cancer_model.pkl
+├── dataset
 └── prediction.py
-```
 
 
 ---
