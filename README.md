@@ -138,7 +138,6 @@ BreastCancer_Prediction/
 │   └── settings.json
 │
 ├── images/
-│   ├── README.md
 │   ├── benign prediction.png
 │   ├── classification matrices.png
 │   ├── confusion matrix.png
