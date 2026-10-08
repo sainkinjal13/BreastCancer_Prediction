@@ -150,13 +150,7 @@ BreastCancer_Prediction/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/sainkinjal13<img width="757" height="577" alt="Screenshot 2026-10-08 185750" src="https://github.com/user-attachments/assets/d94f8c74-6333-4a32-a226-5a84c2c8a6f3" />
-<img width="641" height="268" alt="Screenshot 2026-10-08 185833" src="https://github.com/user-attachments/assets/8359740f-e6f1-40ef-821e-da515d368275" />
-<img width="740" height="577" alt="Screenshot 2026-10-08 185817" src="https://github.com/user-attachments/assets/3a0ca5c4-5de8-4105-b7bd-e71b6dcf9e75" />
-<img width="756" height="577" alt="Screenshot 2026-10-08 185804" src="https://github.com/user-attachments/assets/e7155dd3-f923-4448-ad80-d205acb45d0b" />
-<img width="1517" height="951" alt="Screenshot 2026-10-08 185542" src="https://github.com/user-attachments/assets/71391ea1-7207-4aca-958d-7d16b836976b" />
-/BreastCancer_Prediction.git
-```
+git clone https://github.com/sainkinjal13/BreastCancer_Prediction.git
 
 ### 2. Move into the project directory
 
